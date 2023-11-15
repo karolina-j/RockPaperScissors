@@ -31,6 +31,7 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+    cursor: default;
     /* justify-content: center; 
     gap: 70px;
     */
@@ -124,6 +125,7 @@ p {
 .button {
     min-height: 200px;
     min-width: 200px;
+    cursor: pointer;
 }
 #scissors {
     background-image: url(Images/scissors2.png);
