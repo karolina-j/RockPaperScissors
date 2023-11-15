@@ -1,52 +1,50 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-    <title>Rock Paper Scissors </title>
-    <meta charset="utf-8">
-    <meta name="author" content="Karolina Janyga">
-    <meta name="description" content="rock paper scissors game">
-    <meta name="robots" content="index, nofollow">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Rock Paper Scissors</title>
+        <meta charset="utf-8" />
+        <meta name="author" content="Karolina Janyga" />
+        <meta name="description" content="rock paper scissors game" />
+        <meta name="robots" content="index, nofollow" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" type="text/css" href="style.css" />
-    
-</head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
 
-<body>   
-    <h1 class="game-name"> Rock Paper Scissors </h1>
+    <body>
+        <div class="game-wrapper">
+            <h1 class="game-name">Rock Paper Scissors</h1>
 
-    
-    <div class="score">
-        <div class="container">
-            <div class="user"> YOU  </div>
-            <div class="vs"> vs </div>
-            <div class="computer"> THEM </div>
-        </div>
-    </div>
+            <div class="score">
+                <div class="container">
+                    <div class="user">YOU</div>
+                    <div class="vs">vs</div>
+                    <div class="computer">THEM</div>
+                </div>
+            </div>
 
-    <div class="play">
-        <p class="choice"> Choose your weapon... </p>
-        <div class="weapons">
-            <div class="button" id="rock"> </div>
-            <div class="button" id="paper"> </div>
-            <div class="button" id="scissors"> </div>
-<!--
+            <div class="play">
+                <p class="choice">Choose your weapon...</p>
+                <div class="weapons">
+                    <div class="button" id="rock"></div>
+                    <div class="button" id="paper"></div>
+                    <div class="button" id="scissors"></div>
+                    <!--
             <button id="rock"> Rock </button>
             <button id="paper"> Paper </button>
             <button id="scissors"> Scissors </button>
 -->
+                </div>
+            </div>
+            <div class="gameover-wrapper">
+                <div class="gameover">
+                    <p><em>Your fate</em></p>
+                    <div id="outcome"></div>
+                </div>
+            </div>
         </div>
-    </div>
 
-
-    <div class="gameover">
-        <p> <em>Your fate</em> </p>
-        <div id="outcome">
-            
-        </div>
-    </div>
-
-    <script src="main.js"></script>
-</body>
+        <script src="main.js"></script>
+    </body>
 </html>
